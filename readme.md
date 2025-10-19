@@ -1,8 +1,8 @@
-Pokémon REST API Demo
+Pokémon REST API
 
 A simple Node.js + Express application that fetches data from the public Pokémon API and displays both raw JSON and filtered output (only 5 key fields). The app also demonstrates handling success and error (wrong endpoint) responses.
 
-🛠 Features
+
 
 Fetch Pokémon data via REST API
 
@@ -24,7 +24,7 @@ Capture status codes for both successful and failed requests
 
 Demonstrates error handling for incorrect API endpoints
 
-📦 Installation
+
 
 Clone the repository or copy the files:
 
@@ -47,7 +47,7 @@ The server will run at:
 http://localhost:3000
 
 🔗 API Routes
-✅ Correct Endpoint
+
 
 URL: /pokemon
 
@@ -73,7 +73,7 @@ Response Example:
   }
 }
 
-🚫 Wrong Endpoint
+
 
 URL: /wrong-endpoint
 
